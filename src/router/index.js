@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeComponent from "@/components/HomeComponent.vue";
-import ProjectsComponent from "@/components/ProjectsComponent.vue";
-import SkillsComponent from "@/components/SkillsComponent.vue";
-import AboutComponent from "@/components/AboutComponent.vue";
-import ContactComponent from "@/components/ContactComponent.vue";
+import HomeComponent from "../components/HomeComponent.vue";
+import ProjectsComponent from "../components/ProjectsComponent.vue";
+import SkillsComponent from "../components/SkillsComponent.vue";
+import AboutComponent from "../components/AboutComponent.vue";
+import ContactComponent from "../components/ContactComponent.vue";
 
 const routes = [
   {

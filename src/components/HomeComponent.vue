@@ -3,7 +3,46 @@
     <div class="container">
       <div class="row min-vh-100 align-items-center">
         <div class="col-lg-7 intro-text">
-          <!-- ... (il resto del contenuto rimane invariato) ... -->
+          <div class="d-flex align-items-center mb-4">
+            <img
+              src="/images/foto-profilo-git-hub-Photoroom.jpg"
+              alt="Michele Raisa"
+              class="profile-image me-4"
+            />
+            <div>
+              <h1 class="display-4 fw-bold">Michele Raisa</h1>
+              <h2 class="h4">Jr Full Stack Developer</h2>
+            </div>
+          </div>
+          <p class="lead mb-5">
+            Trasformo idee in codice, creando soluzioni web innovative e
+            funzionali. Specializzato in Vue.js, Laravel, e tecnologie
+            full-stack moderne.
+          </p>
+          <div class="cta-buttons">
+            <router-link
+              to="/projects"
+              class="btn btn-primary btn-lg me-3 mb-3"
+            >
+              Vedi Progetti
+            </router-link>
+          </div>
+          <div class="social-links mt-5">
+            <a
+              href="https://github.com/MicheleRaisa95"
+              target="_blank"
+              class="me-3"
+            >
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/michele-raisa-27aba5227/"
+              target="_blank"
+              class="me-3"
+            >
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+          </div>
         </div>
         <div class="col-lg-5 intro-visual d-none d-lg-block">
           <svg
@@ -11,7 +50,22 @@
             viewBox="0 0 400 400"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <!-- ... (il contenuto SVG rimane invariato) ... -->
+            <text x="10" y="30" class="code-line">class MicheleRaisa {</text>
+            <text x="30" y="70" class="code-line">constructor() {</text>
+            <text x="50" y="110" class="code-line">
+              this.role = 'Full Stack Dev';
+            </text>
+            <text x="50" y="150" class="code-line">
+              this.skills = ['Vue', 'Laravel', '☕'];
+            </text>
+            <text x="50" y="190" class="code-line">this.caffeine = 100;</text>
+            <text x="30" y="230" class="code-line">}</text>
+            <text x="30" y="270" class="code-line">code() {</text>
+            <text x="50" y="310" class="code-line">
+              return this.caffeine > 0 ? '👨‍💻' : '😴';
+            </text>
+            <text x="30" y="350" class="code-line">}</text>
+            <text x="10" y="390" class="code-line">}</text>
           </svg>
         </div>
       </div>

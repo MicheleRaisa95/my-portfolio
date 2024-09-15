@@ -52,7 +52,7 @@
 
     <footer class="bg-light py-4 mt-5">
       <div class="container text-center">
-        <p>&copy; 2024 Il Tuo Nome. Tutti i diritti riservati.</p>
+        <p>&copy; 2024 Michele Raisa. Tutti i diritti riservati.</p>
       </div>
     </footer>
   </div>
